@@ -6,6 +6,7 @@
  nav a { 
     text-decoration: underline;
     color: green;
+    text-align: center;
  }
 
  nav a:visited {
@@ -17,12 +18,55 @@
     border-style: dotted;
     border-width: 1px;
     border-color: blue;
+    text-align: center;
  }
 
  body {
     background-color: aliceblue;
+    text-align: center;
 }
+
+article {
+   width: 450px;
+   border: 15px solid green;
+   padding: 50px;
+   margin: 0 auto;
+   align-items: center
+   ;
+ }
+
+ .left-wide-content {
+   text-align: left;
+   width: 1000px;
+   border: 15px solid purple;
+   padding: 50px;
+   margin: 0 auto;
+   
+ }
+
+ table {
+   width: 100%;
+   text-align: left;
+   border: 5px solid;
+ }
+
+ .color img{
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   -webkit-transition: all 1s ease;
+   }
+   
+   .color img:hover{
+   filter: grayscale(0%);
+   filter: gray;
+   -webkit-filter: grayscale(0%);
+   filter: none;
+   transition: 1s ease;
+   }
 
  footer a:hover {
     color: maroon;
+
  }
+
+ article {padding: 25px 500px;}
