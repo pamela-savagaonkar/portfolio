@@ -29,7 +29,7 @@
  }
 
  li {
-   float: center;
+   float: none;
  }
 
  h1 {
@@ -46,8 +46,8 @@
 }
 
 article {
-   align-items: center
-   width: 1000px;
+   align-items: center;
+   width:fit-content;
    border: 15px solid green;
    padding: 50px;
    margin: 0 auto;
@@ -70,7 +70,7 @@ article {
    width: 150px;
    height: 150px;
    background: grey;
-   margin: 0px 14px;
+   margin: 0 14px;
    transition: 0.5s;
  }
 
@@ -85,20 +85,18 @@ article {
  .left-wide-content {
    text-align: left;
    width: 1000px;
-   border: 15px solid purple;
-   padding: 50px;
+   border-color: #851F7A;
    margin: 0 auto;
    
  }
 
  .menu {
-   align-items: left;
+   align-items: center;
  }
 
  table {
    width: 100%;
    text-align: left;
-   border: 5px solid;
  }
 
  footer a:hover {
