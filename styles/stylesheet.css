@@ -137,6 +137,12 @@ footer a:hover {
   margin: auto;
  }
 
+ .education {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
  .menu {
    align-items: center;
  }
