@@ -86,7 +86,6 @@ footer a:hover {
  .rose-container {
   width: 100%;
   margin: auto;
-  padding: inherit;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -114,8 +113,7 @@ footer a:hover {
  }
 
  .rose-box {
-  height: 300px;
-  width: 300px;
+  width: 20%;
   border: 30px solid darkcyan;
   background: lightgrey;
  }
