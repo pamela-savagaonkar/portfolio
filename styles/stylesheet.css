@@ -112,6 +112,22 @@ footer a:hover {
    z-index: 2;
  }
 
+ .box-family {
+  width: 125px;
+  height: 125px;
+  background: grey;
+  margin: 0 14px;
+  transition: 0.5s;
+}
+
+.box-family {border-radius: 6px;}
+
+.box-family:hover {
+  transform: scale(1.2);
+  background: black;
+  z-index: 2;
+}
+
  .rose-box {
   width: 20%;
   border: 30px solid darkcyan;
