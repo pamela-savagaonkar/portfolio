@@ -1,0 +1,51 @@
+
+body { 
+    overflow: scroll; 
+  }
+  
+  .roboto-regular {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+    h3 {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  
+    aside {
+        display: block;
+        content: 100%;
+        width: 20%;
+        margin: 0 150px 0;
+        float: right;
+        font-family: 'Work Sans', sans-serif;   
+      }
+  
+    figure {
+      justify-content: flex-end;
+      margin: 0;
+    }
+  
+    header {
+      margin: 100px;
+    }
+  
+    a {
+      color:#4fabc3;
+    }
+  
+    footer {
+      position: fixed;
+      justify-content: inherit;
+      text-align: center;
+      left: 0;
+      bottom: 0;
+      background-color: #3a3a3a;
+      color: white;
+      height: 300px; width: 100%;
+      font-size: 0.8em;
+    }
+  
+  
