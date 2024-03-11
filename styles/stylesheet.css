@@ -34,6 +34,26 @@
    float: none;
  }
 
+tr th {color:black;}
+
+tr:nth-child(odd) {
+  color: #c022b0;
+}
+
+tr:nth-child(even) {
+  color: rgb(126, 21, 224);
+}
+
+.rose-design span:nth-of-type(odd){
+  color: darkorchid;
+}
+
+.rose-design span:nth-of-type(even){
+  color: rgb(87, 15, 40);
+}
+
+q:nth-child(even) {color: aquamarine;}
+
  h1 {
     color: #851F7A;
     border-style: dotted;
