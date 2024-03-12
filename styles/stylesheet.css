@@ -44,6 +44,24 @@ tr:nth-child(even) {
   color: rgb(126, 21, 224);
 }
 
+ul li.quotes:nth-child(odd) {
+  color: rgb(126, 21, 224);
+}
+
+ul li.quotes:nth-child(even) {
+  color: rgb(76, 166, 7);
+}
+
+.quotes:hover {font-size: 4em;}
+
+.quotes {transition-property: font-size;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+transition-delay: 1s;}
+
+article:hover {
+  border: 3px solid green}
+
 .rose-design span:nth-of-type(odd){
   color: darkorchid;
 }
